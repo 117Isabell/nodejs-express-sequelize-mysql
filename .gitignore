@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore any log files
+*.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore build output
+/build
+
+# Ignore dependency directories
+/bower_components/
+/vendor/
+
+# Ignore development tools configuration
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore compiled binary files
+*.class
+*.o
+*.bin
+
+# Ignore cache and temporary files
+.cache/
+.tmp/
+.temp/
